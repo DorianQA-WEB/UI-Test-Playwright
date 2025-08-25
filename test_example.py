@@ -16,3 +16,5 @@ def test_get_started_link(page: Page):
 
     # Ожидаем, что на странице будет заголовок с именем Installation.
     expect(page.get_by_role("heading", name="Installation")).to_be_visible()
+
+
