@@ -1,4 +1,4 @@
-from playwright.sync_api import Page, StorageState
+from playwright.sync_api import Page
 
 
 class LoginPage:
