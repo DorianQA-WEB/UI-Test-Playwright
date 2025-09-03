@@ -17,3 +17,7 @@ class LoginPage:
 
     def is_error_message_displayed(self):
         return self.page.is_visible(".error-message")
+
+
+    def sis_error_message_displayed(self):
+        return self.page.is_visible(".error-message")
